@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Galaga</title>
+	</head>
+	<body>
+		<div style="width:576px; margin:20px auto 0px;">
+			 <div style="margin-bottom:7px;">
+				  <a href="http://blog.kislenko.net/archives/12441.html" onclick="start();return false;" style="width:100px;">Старт</a>
+				  <a href="http://blog.kislenko.net/archives/12441.html" onclick="if (oLives.killed()) {input.newgame = true;return false;}return false;" style="width:100px;">Ещё игра</a>
+			 </div>
+		</div>
+		<div style="margin: auto; text-align: center;">
+			 <canvas id="canvasInfo" width="576" height="25" style="border:0px;"></canvas>
+			 <br>
+			 <canvas id="canvas" width="576" height="438" style="border:0px;"></canvas>
+			 <a href="http://blog.kislenko.net/archives/12441.html" onclick="start();return false;" style="display:none;">Start</a> <!-- поменять адресса для перезапуска игры  -->
+			 <div id="messageBox">Нажмите Старт для начала игры!</div>
+		</div>
+		
+	</body>
+</html>
+
+	
